@@ -2,7 +2,7 @@ import tkinter as tk
 
 
 def check():
-    if cval.get() == True:
+    if cval.get() is True:
         print('チェックされています')
     else:
         print('チェックされていません')

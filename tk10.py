@@ -9,7 +9,7 @@ root = tk.Tk()
 root.title('My Window')
 root.geometry('400x200')
 
-btn = tk.Button(text='メッセージ',command=btn_click)
+btn = tk.Button(text='メッセージ', command=btn_click)
 btn.pack()
 text = tk.Text()
 text.pack()
