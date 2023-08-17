@@ -6,4 +6,4 @@ print(c)
 print(c[0])
 print(c[1][2])
 print(len(c))  # 2
-print(len(c[0]))  #3
+print(len(c[0]))  # 3

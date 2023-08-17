@@ -22,10 +22,10 @@ if year % 4 == 0:
 else:
     print('NG4')
 
-day = 30 
+day = 30
 # if not (day == 28 or day == 30 or day == 31):
 # if day not in[28, 30, 31]:
-if not (day in[28, 30, 31]):
+if not (day in [28, 30, 31]):
     print('OK5')
 else:
     print('NG5')

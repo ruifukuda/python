@@ -1,7 +1,7 @@
 scores = {'network': 60, 'database': 80, 'security': 60}
 members = ['松田', '浅木', '工藤']
 tp1 = tuple(members)  # リストmembersを材料にタプルを生成
-print(tp1)  
+print(tp1)
 ls1 = list(scores)  # scoresのキーを集めたlistを生成
 print(ls1)
 st1 = set(scores.values())  # scoresのvalueを材料としてsetを生成

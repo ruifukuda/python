@@ -1,6 +1,6 @@
 isError = False
 n = 50
-if isError == False and n < 100:
+if isError is False and n < 100:
     print('ok')
 
 print('優' if n > 80 else '良' if n > 60 else '可' if n > 40 else '不可')
