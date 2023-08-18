@@ -1,4 +1,5 @@
 def welcome(u):
+    # f文字列の中で'使うときは"に置き換える
     print(f'ようこそ{u["name"]}さん')
     u['age'] = u['age'] + 1
     print(f'あなたは来年{u["age"]}歳だから大吉です')
